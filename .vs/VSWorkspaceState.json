@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\book-manager",
+    "\\book-manager\\public"
   ],
   "PreviewInSolutionExplorer": false
 }
