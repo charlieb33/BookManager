@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:book-manager\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\components\\DataFilter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:book-manager\\src\\components\\DataFilter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataFilter.js",
+              "DocumentMoniker": "C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\components\\DataFilter.js",
+              "RelativeDocumentMoniker": "book-manager\\src\\components\\DataFilter.js",
+              "ToolTip": "C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\components\\DataFilter.js",
+              "RelativeToolTip": "book-manager\\src\\components\\DataFilter.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-17T18:47:36.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\App.js",
+              "RelativeDocumentMoniker": "book-manager\\src\\App.js",
+              "ToolTip": "C:\\Users\\charl\\source\\repos\\charlieb33\\BookManager\\book-manager\\src\\App.js",
+              "RelativeToolTip": "book-manager\\src\\App.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-17T18:35:17.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
