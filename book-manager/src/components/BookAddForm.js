@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { fetchBookDetails } from '../utils/BookDetailsApi';
+import { getBookData } from '../utils/BookDetailsApi';
 
-const BookAddForm = ({ bookAdded }) => {
+const BookAddForm = ({bookAdded}) => {
     const [isbn, setIsbn] = useState('');
     const [error, setError] = useState('');
 
@@ -14,17 +14,17 @@ const BookAddForm = ({ bookAdded }) => {
         }
 
         try {
-            const book = await fetchBookDetails(isbn);
+            const book = await getBookData(isbn);
             bookAdded({
                 title: book.title,
                 subtitle: book.subtitle,
                 author: book.authors[0].name,
-                cover: book.cover ? book.cover.medium : '',
+                cover: book.cover ? book.cover.medium : "",
                 isbn
             });
-            setIsbn('');
+            setIsbn("");
         } catch (error) {
-            setError('Failed to fetch book details. Please try again.');
+            setError('Failed to retrieve book data. Please try again.');
         }
     };
 
@@ -34,7 +34,7 @@ const BookAddForm = ({ bookAdded }) => {
                 type="text"
                 value={isbn}
                 onChange={(e) => setIsbn(e.target.value)}
-                placeholder="Please Enter ISBN"
+                placeholder="Enter ISBN"
             />
             <button type="submit">Add Book</button>
             {error && <p className="error">{error}</p>}
