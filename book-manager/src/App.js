@@ -20,7 +20,7 @@ const App = () => {
     };
 
     const rateBook = (isbn, rating) => {
-        setBooks(books.map(book =>
+        setBooks(books.books.map(book =>
             (book.isbn === isbn) ? { ...book, rating } : book));
     };
 
